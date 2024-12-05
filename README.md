@@ -53,7 +53,7 @@ ros2 run ros2_kdl_package ros2_kdl_vision_control --ros-args -p cmd_interface:=v
 To perform the "look at point" task using the Aruco marker, run the marker detection command again with the camera frame set to camera_link_optical:
 
 ```
-ros2 run aruco_ros single --ros-args -r /image:=/videocamera -r /camera_info:=/camera_info -p marker_id:=201 -p marker_size:=0.2 -p reference_frame:=camera_link_optimal -p marker_frame:=aruco_marker_frame -p camera_frame:=camera_link_optical
+ros2 run aruco_ros single --ros-args -r /image:=/videocamera -r /camera_info:=/camera_info -p marker_id:=201 -p marker_size:=0.2 -p reference_frame:=camera_link_optical -p marker_frame:=aruco_marker_frame -p camera_frame:=camera_link_optical
 ```
 
 Then, in a separate terminal, run the following command to start the "look at point" task:
