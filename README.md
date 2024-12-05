@@ -41,7 +41,8 @@ ros2 run ros2_opencv ros2_opencv_node
 # Aruco interaction 
 Following the launch of empty.world, i.e., the world in which the Aruco Marker is located, it is possible to detect such marker running the node:
  
-```ros2 run aruco_ros single --ros-args -r /image:=/videocamera -r /camera_info:=/camera_info -p marker_id:=201 -p marker_size:=0.2 -p reference_frame:=camera_link -p marker_frame:=aruco_marker_frame -p camera_frame:=camera_link_optical
+```
+ros2 run aruco_ros single --ros-args -r /image:=/videocamera -r /camera_info:=/camera_info -p marker_id:=201 -p marker_size:=0.2 -p reference_frame:=camera_link -p marker_frame:=aruco_marker_frame -p camera_frame:=camera_link_optical
 ```
 
 This code provides two types of controllers. One is for positioning with an offset relative to the Aruco marker. To run the positioning command, use:
