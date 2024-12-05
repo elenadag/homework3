@@ -1,6 +1,6 @@
 # homework3
 # Overview
-The goal of this project is to implement a vision-based controller for a 7-degrees-of-freedom robotic manipulator arm using ROS2.https://github.com/elenadag/homework3.git
+The goal of this project is to implement a vision-based controller for a 7-degrees-of-freedom robotic manipulator arm using ROS2.
 This repository contains instructions to download the folders from GitHub, launch the robot, and run the files.
 # Setup
 Open the terminal, launch the container, and navigate to the directory where you want to download the folder. Then, clone the repository with:
