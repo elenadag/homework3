@@ -31,7 +31,6 @@ It is possible to visualize the sphere using the camera mounted on the manipulat
 In another terminal --- connected to the same docker container --- upon launching the sphere.world, enter:
 ```
 ros2 run rqt_image_view rqt_image_view
-
 ```
 To detect the Sphere in the world, run in another terminal:
 
